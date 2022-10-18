@@ -19,14 +19,14 @@ class DemoApplicationTests {
 	@Test
 	public void minTest() {
 		double expected = 2d;
-		double actual = m.add(4,2);
+		double actual = m.min(4,2);
 		Assert.assertTrue(expected == actual);
 	}
 
 	@Test
 	public void mulTest() {
 		double expected = 8d;
-		double actual = m.add(4,2);
+		double actual = m.mul(4,2);
 		Assert.assertTrue(expected == actual);
 	}
 
